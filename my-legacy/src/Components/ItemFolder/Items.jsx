@@ -1,4 +1,4 @@
-import Item from "../Components"
+import DisplayItem from './DisplayItems';
 import axios from 'axios';
 import {useEffect, useState} from 'react';
 import DeleteItem from "./DeleteItem";
@@ -11,7 +11,7 @@ function Items() {
     const [quantity, setQuantity] = useState ("");
     const [items, setItems] = useState([])
 
-
+}
 
     const itemComponent = []
     
@@ -66,7 +66,6 @@ function Items() {
 
     </div>
     );
-    }
 }
 
 export default Items;
