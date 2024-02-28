@@ -2,6 +2,7 @@
 import './App.css';
 import Home from './Components/Home';
 import {Route, Routes, BrowserRouter as Router} from 'react-router-dom';
+import Items from './Components/ItemFolder/Items';
 
 
 
@@ -19,11 +20,11 @@ function App() {
   
             <Route path="/" element={<Home/>} />
   
-            {/* <Route path="/Items" element={<Items/>} />
+            <Route path="/Items" element={<Items/>} />
   
-            <Route path="/Cart" element={<Cart/>} />
+            {/* <Route path="/Cart" element={<Cart/>} />
   
-            <Route path="/About us" element={<AboutUs/>} /> */}
+            <Route path="/About us" element={<AboutUs/>} />  */}
   
           </Routes>
   
